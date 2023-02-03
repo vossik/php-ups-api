@@ -68,7 +68,7 @@ class PackagingType implements NodeInterface
     /**
      * @var string
      */
-    private $description;
+    private $description = '';
 
     public function __construct($attributes = null)
     {

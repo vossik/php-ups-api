@@ -75,7 +75,7 @@ class UnitOfMeasurement implements NodeInterface
     /**
      * @var string
      */
-    private $description;
+    private $description = '';
 
     /**
      * @param null|array $attributes

@@ -28,7 +28,7 @@ class PickupType implements NodeInterface
     /**
      * @var string
      */
-    private $description;
+    private $description = '';
 
     /**
      * @param null|DOMDocument $document

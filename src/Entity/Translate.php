@@ -29,22 +29,22 @@ class Translate implements NodeInterface
     /**
      * @var string
      */
-    private $languageCode;
+    private $languageCode = '';
 
     /**
      * @var string
      */
-    private $dialectCode;
+    private $dialectCode = '';
 
     /**
      * @var string
      */
-    private $code;
+    private $code = '';
 
     /**
      * @var string
      */
-    private $locale;
+    private $locale = '';
 
     /**
      * @param null $response

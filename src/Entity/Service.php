@@ -109,7 +109,7 @@ class Service implements NodeInterface
     ];
 
     /** @deprecated */
-    public $Description;
+    public $Description = '';
 
     /**
      * @var string
@@ -119,7 +119,7 @@ class Service implements NodeInterface
     /**
      * @var string
      */
-    private $description;
+    private $description = '';
 
     /**
      * @param null|object $attributes

@@ -34,52 +34,52 @@ class ShipTo implements NodeInterface
     /**
      * @var string
      */
-    private $locationId;
+    private $locationId = '';
 
     /**
      * @var string
      */
-    private $receivingAddressName;
+    private $receivingAddressName = '';
 
     /**
      * @var string
      */
-    private $bookmark;
+    private $bookmark = '';
 
     /**
      * @var string
      */
-    private $shipperAssignedIdentificationNumber;
+    private $shipperAssignedIdentificationNumber = '';
 
     /**
      * @var string
      */
-    private $companyName;
+    private $companyName = '';
 
     /**
      * @var string
      */
-    private $attentionName;
+    private $attentionName = '';
 
     /**
      * @var string
      */
-    private $phoneNumber;
+    private $phoneNumber = '';
 
     /**
      * @var string
      */
-    private $taxIdentificationNumber;
+    private $taxIdentificationNumber = '';
 
     /**
      * @var string
      */
-    private $faxNumber;
+    private $faxNumber = '';
 
     /**
      * @var string
      */
-    private $emailAddress;
+    private $emailAddress = '';
 
     /**
      * @var Address
